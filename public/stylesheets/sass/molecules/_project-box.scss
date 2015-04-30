@@ -1,0 +1,41 @@
+.projects__grid {
+  padding: 40px 0;
+}
+
+.project-box {
+  height: 214px;
+  overflow: hidden;
+  background-size: 100% 100%;
+  cursor: pointer;
+  background: rgba(0, 0, 0, .5);
+  transition: all .3s;
+
+  &:hover,
+  &:active {
+    background: transparent;
+
+    .project-box__name {
+      transform: translateY(90%);
+    }
+  }
+}
+
+.project-box__image {
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.project-box__name {
+  color: $brand-yellow;
+  text-shadow: 2px 2px 1px #000;
+  font-weight: 900;
+  text-align: center;
+  transition: all .3s;
+  will-change: transform;
+  transform: translateY(200px);
+}

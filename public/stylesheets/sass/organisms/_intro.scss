@@ -1,0 +1,34 @@
+.intro {
+  background-image: url('../images/intro-bg.jpg');
+  background-size: 100% 100%;
+  min-height: 588px;
+}
+
+.intro__header {
+  padding: 1.8em 0;
+}
+
+.intro__title {
+  line-height: 56px;
+  font-weight: 900;
+}
+
+.intro__hero {
+  padding: 2em 0;
+}
+
+.intro__btn {
+  margin: 26px 0;
+}
+
+@media screen and (max-width: 320px) {
+  .intro__header,
+  .intro__hero {
+    padding: 10px 0;
+  }
+
+  .intro__btn {
+    margin: 20px auto;
+    background: $brand-yellow;
+  }
+}
