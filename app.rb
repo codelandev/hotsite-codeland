@@ -3,6 +3,5 @@
 # import routes
 
 get '/' do
-  @content = "Hey there"
-  slim :index
+  File.read(File.join('public/dist', 'index.html'))
 end

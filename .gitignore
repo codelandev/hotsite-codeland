@@ -3,3 +3,4 @@
 *.css
 .sass-cache
 .bundle
+node_modules
