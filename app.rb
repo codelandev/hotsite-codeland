@@ -3,5 +3,5 @@
 # import routes
 
 get '/' do
-  File.read(File.join('public/dist', 'index.html'))
+  File.read(File.join('public', 'index.html'))
 end
