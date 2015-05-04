@@ -23,8 +23,8 @@ post '/contact' do
       :address               => 'smtp.gmail.com',
       :port                  => '587',
       :enable_starttls_auto  => true,
-      :user_name             => process.env.EMAIL_USER,
-      :password              => process.env.EMAIL_PASSWORD,
+      :user_name             => ENV['email_user'],
+      :password              => ENV['email_password'],
       :authentication        => :plain,
       :domain                => 'codeland.com.br'
     }
