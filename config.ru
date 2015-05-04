@@ -2,6 +2,7 @@ require 'sinatra'
 require 'slim'
 require 'sass/plugin/rack'
 require './app'
+require 'pony'
 
 Sass::Plugin.options[:style] = :compressed
 use Sass::Plugin::Rack
