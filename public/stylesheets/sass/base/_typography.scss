@@ -11,15 +11,17 @@ body {
 
 .title--up {
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .title--bordered {
   @extend .title--up;
 
+  font-size: 36px;
   border-bottom: 7px solid $brand-yellow;
-  padding: 0 5px 20px 0;
+  padding: 0 5px 10px 0;
   display: inline-block;
+  margin-bottom: 20px;
 
   span {
     display: block;

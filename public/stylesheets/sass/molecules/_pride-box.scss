@@ -22,12 +22,12 @@
 
 .pride-box__author {
   @extend .clearfix;
+  margin-left: 10px;
 }
 
 .pride-box__author__avatar {
   border-radius: 50%;
   float: left;
-  border: 2px solid $brand-gray;
 }
 
 .pride-box__author__info {
@@ -44,6 +44,7 @@
 .pride-box__author__company {
   color: $brand-gray;
   font-weight: bold;
+  font-size: 14px;
 }
 
 @media screen and (max-width: 320px) {

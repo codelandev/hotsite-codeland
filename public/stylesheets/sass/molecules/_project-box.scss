@@ -3,7 +3,7 @@
 }
 
 .project-box {
-  height: 214px;
+  height: 220px;
   overflow: hidden;
   background-size: 100% 100%;
   cursor: pointer;
@@ -15,7 +15,7 @@
     background: transparent;
 
     .project-box__name {
-      transform: translateY(90%);
+      transform: translateY(160%);
     }
   }
 }
