@@ -14,24 +14,23 @@
 
 .skew {
   position: absolute;
-  left: -10%;
   width: 120%;
   height: 170px;
   z-index: 20;
   overflow: hidden;
-  transform: rotate(-6deg);
+  transform: rotate(-4deg);
   background: $brand-black;
   top: 95px;
 }
 
 .skew-right {
   position: absolute;
-  left: -62%;
+  left: -38%;
   width: 120%;
   height: 170px;
   z-index: 20;
   overflow: hidden;
-  transform: rotate(6deg);
+  transform: rotate(5deg);
   background: $brand-black;
   top: 88px;
 }
