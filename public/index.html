@@ -38,7 +38,7 @@
             </div>
             <div class="row">
               <div class="col-sm-12 col-md-11 col-md-offset-1">
-                <a class="btn btn--line btn--lg intro__btn">Saiba como</a>
+                <a class="js-contact-btn btn btn--line btn--lg intro__btn">Saiba como</a>
               </div>
             </div>
           </div>
@@ -127,7 +127,7 @@
         </div>
       </div>
       <section class="lower">
-        <div class="container">
+        <div class="container js-contact">
           <div class="row">
             <div class="col-sm-12 col-md-10 col-md-offset-1">
               <h1 class="lower__title">
@@ -196,7 +196,7 @@
                         <input name="message[mail]" type="text" placeholder="exemplo@email.com" required="true"/>
                       </div>
                       <div class="form-box__divider">
-                        <input name="message[phone]" type="text" placeholder="(DDD)XXXXX-XXXX" required="true"/>
+                        <input name="message[phone]" id="mask-phone" type="text" placeholder="(DDD)XXXXX-XXXX" required="true"/>
                       </div>
                       <div class="form-box__divider">
                         <div class="select">
@@ -237,5 +237,8 @@
         </div>
       </section>
     </main>
+
+    <script src="javascript/vanilla-masker.min.js"></script>
+    <script src="javascript/main.js"></script>
   </body>
 </html>
