@@ -1,11 +1,15 @@
-This is a very simple example of how to use HAML and SCSS with Sinatra. To get started, run:
+# Codeland
+> Desenvolvimento web ÁGIL
 
-    git clone git@github.com:codelandev/hotsite-codeland.git
+```bash
+git clone git@github.com:codelandev/hotsite-codeland.git
 
-To start up locally, just run:
+cd hotsite-codeland
 
-    rackup
+bundle install
+```
 
-Or if you prefer
-
-    shotgun
+To start the server:
+```bash
+shotgun
+```
