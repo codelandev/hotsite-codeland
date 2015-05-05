@@ -16,7 +16,7 @@ post '/contact' do
     :to => 'contato@codeland.com.br',
     :from => mail,
     :reply_to => mail,
-    :subject => 'Lance minha Startup em duas semanas',
+    :subject => '[HOT] Lance minha Startup em duas semanas',
     :body => "Nome: #{name}\n" + "E-mail: #{mail}\n" + "Telefone: #{phone}\n" + "Orçamento: #{budget}\n" + body,
     :via => :smtp,
     :via_options => {
