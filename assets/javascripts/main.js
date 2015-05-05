@@ -1,3 +1,5 @@
+//= require vanilla-masker.min
+
 VMasker(document.querySelector("#mask-phone")).maskPattern("(99) 9999-99999");
 
 var smooth_scroll_to = function(element, target, duration) {
