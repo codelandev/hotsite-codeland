@@ -1,10 +1,14 @@
-require 'sinatra'
-require 'slim'
+require 'bundler'
+Bundler.require
 require 'sass/plugin/rack'
 require './app'
-require 'pony'
 
-Sass::Plugin.options[:style] = :compressed
+ENV['RACK_ENV'] ||= 'development'
+not_in_production = ENV['RACK_ENV'] != 'production'
+
 use Sass::Plugin::Rack
+use Rack::Deflater
 
-run Sinatra::Application
+Slim::Engine.set_options pretty: not_in_production
+
+run App
