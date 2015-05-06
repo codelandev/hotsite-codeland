@@ -12,7 +12,5 @@
   h2 { margin: 0 !important; }
 }
 
-.success.wrapper,
-.notice.wrapper{
-  background-color: $success;
-}
+.success.wrapper { background-color: $success; }
+.error.wrapper { background-color: $error; }

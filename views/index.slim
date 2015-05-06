@@ -1,11 +1,14 @@
 - if params[:success] == 'success'
-  noscript
-    img[height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6025904537817&amp;cd[value]=0.01&amp;cd[currency]=BRL&amp;noscript=1"]
-
   .flash
     .success.wrapper
       .notice
         h2 Mensagem enviada com sucesso. Logo entraremos em contato!
+
+- if params[:errors]
+  .flash
+    .error.wrapper
+      .notice
+        h2 Preencha o formulário corretamente!
 
 main
   section.intro
@@ -118,6 +121,8 @@ main
             section
               .form-box
                 form[action="/contact" method="post"]
+                  input[type="text" name="message[spam]" value="" style="display: none"]
+                  input[type="hidden" name="message[antispam]" value=""]
                   .form-box__divider
                     input[name="message[name]" placeholder="Nome Completo" required="true" type="text"]
                   .form-box__divider
