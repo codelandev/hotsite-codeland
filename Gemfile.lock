@@ -11,6 +11,8 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.9.1.1)
+    daemons (1.2.2)
+    eventmachine (1.0.7)
     execjs (2.5.2)
     hike (1.2.3)
     json (1.8.2)
@@ -53,6 +55,10 @@ GEM
       sprockets (~> 2.0)
       tilt (~> 1.1)
     temple (0.7.5)
+    thin (1.6.3)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0)
+      rack (~> 1.0)
     tilt (1.4.1)
     uglifier (2.7.1)
       execjs (>= 0.3.0)
@@ -69,4 +75,5 @@ DEPENDENCIES
   sinatra
   sinatra-asset-pipeline (~> 0.7.0)
   slim
+  thin
   uglifier
