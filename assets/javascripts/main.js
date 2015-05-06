@@ -1,9 +1,9 @@
 //= require vanilla-masker.min
 //= require smoothscroll.min
 
-VMasker(document.querySelector("#mask-phone")).maskPattern("(99) 9999-99999");
+VMasker(document.querySelector("#mask-phone")).maskPattern("(99) 99999-9999");
 
-window.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
   var btnScroll = document.querySelector('.js-contact-btn');
 
   btnScroll.addEventListener('click', function () {
