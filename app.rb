@@ -38,6 +38,6 @@ class App < Sinatra::Base
         :domain                => 'codeland.com.br'
       }
     )
-    redirect "/"
+    redirect "/?success=success"
   end
 end

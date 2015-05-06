@@ -1,0 +1,18 @@
+.flash{
+  font-size: 26px;
+  color: white;
+  z-index: 500;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.wrapper{
+  padding: 35px 0 !important;
+  h2 { margin: 0 !important; }
+}
+
+.success.wrapper,
+.notice.wrapper{
+  background-color: $success;
+}

@@ -10,4 +10,8 @@ window.addEventListener('DOMContentLoaded', function() {
     var destine = document.querySelector('.js-contact');
     window.smoothScroll(destine, 2000)
   });
+
+  setTimeout( function(){ var flash = document.querySelector('.flash'); if(flash){flash.style.display = 'none';}}, 6000);
+
 });
+
