@@ -4,28 +4,39 @@
   min-height: 600px;
 }
 
-.intro__header {
-  padding: 1.8em 0;
-}
+.intro__header { padding: 1.8em 0; }
 
 .intro__title {
   line-height: 56px;
   font-weight: 900;
 }
 
-.intro__hero {
-  padding: 2em 0;
-}
+.intro__hero { padding: 2em 0; }
 
-.intro__btn {
-  margin: 26px 0;
-}
+.intro__btn { margin: 26px 0; }
+
 .logo {
   img {
     width: 188px;
     height: 51px;
   }
 }
+@media screen and (max-width: 560px) {
+  .intro__title {
+    font-size: 51px;
+    line-height: 1;
+  }
+  .intro__hero {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .intro__title { font-size: 41px; }
+  .btn--lg { width: 100%; }
+}
+
+@media screen and (max-width: 340px) { .intro__title { font-size: 34px; } }
 
 @media screen and (max-width: 320px) {
   .intro__header,
