@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded', function() {
     window.smoothScroll(destine, 2000)
   });
 
-  // setTimeout( function(){ var flash = document.querySelector('.flash'); if(flash){flash.style.display = 'none';}}, 6000);
+  setTimeout( function(){ var flash = document.querySelector('.flash'); if(flash){flash.style.display = 'none';}}, 6000);
 
 });
 
