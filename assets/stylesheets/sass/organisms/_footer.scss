@@ -6,6 +6,6 @@
   strong { font-weight: 900; }
   a {
     color: $brand-gray;
-    &:hover { color: $brand-yellow; }
+    &:hover { color: $brand-yellow; text-decoration: none; }
   }
 }
