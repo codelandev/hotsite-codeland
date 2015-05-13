@@ -1,1 +1,13 @@
-.projects { margin: 20px 0 10px 0; }
+.projects {
+  margin: 0;
+  h2.title--bordered { border-bottom-color: white; }
+  z-index: 1;
+  .projects-top {
+    background-color: $brand-yellow;
+    padding: 30px 0 40px 0;
+  }
+  .projects-bottom {
+    background-color: $brand-yellow;
+    padding: 10px 0 120px 0;
+  }
+}

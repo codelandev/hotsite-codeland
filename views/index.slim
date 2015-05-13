@@ -29,17 +29,48 @@ main
         .row
           .col-sm-12.col-md-11.col-md-offset-1.col-lg-12.col-lg-offset-0
             a.js-contact-btn.btn.btn--line.btn--lg.intro__btn Saiba como
-  section.projects
+  section.process
     .container
       .row
         .col-sm-12.col-md-10.col-md-offset-1.col-lg-12.col-lg-offset-0
           header.projects__title
             h2.title--bordered
-              span Faça como
-              span estas startups
+              span Nosso
+              span Processo
+      .row
+        .col-sm-12.col-md-7.col-md-offset-1.col-lg-12.col-lg-offset-0
+          p.text--gray Graças a nossa metodologia única, ajudamos os nossos clientes a reduzir a maior parte dos riscos e custos para se lançar um novo sistema na web. Veja como funciona:
       .row
         .col-sm-12.col-md-10.col-md-offset-1.col-lg-12.col-lg-offset-0
-          p.text--gray Já atendemos dezenas de startups com mais diversos tipos de projetos. Faça como eles e escolha a gente para lançar seu novo negócio!
+          .row.text-center
+            .col-sm-4.col-md-4
+              img[height="90" width="90" src="#{image_path 'discover.png'}" alt="Semana de Descobrimento" ]
+              h4 Descobrimento
+              p.text--gray Nesta semana iremos debater o seu modelo de negócios, estratégias e criaremos seu canvas. Também fazemos o seu roadmap de desenvolvimento e o design final do seu produto.
+            .col-sm-4.col-md-4
+              img[height="90" width="90" src="#{image_path 'development.png'}" alt="Semana de Desenvolvimento" ]
+              h4 Desenvolvimento
+              p.text--gray Aqui iniciamos o desenvolvimento da sua aplicação em si. Teremos uma semana inteira para construir a versão inicial do seu produto, o MVP.
+            .col-sm-4.col-md-4
+              img[height="90" width="90" src="#{image_path 'deliver.png'}" alt="Entrega" ]
+              h4 Entrega
+              p.text--gray No final do ciclo, apresentamos para você o seu produto já hospedado na web, com domínio customizado e pronto para ser lançado.
+  .skew-container
+    .skew-line
+      .skew.yellow
+      .skew-right.yellow
+  section.projects
+    .projects-top
+      .container
+        .row
+          .col-sm-12.col-md-10.col-md-offset-1.col-lg-12.col-lg-offset-0
+            header.projects__title
+              h2.title--bordered
+                span Faça como
+                span estas startups
+        .row
+          .col-sm-12.col-md-7.col-md-offset-1.col-lg-12.col-lg-offset-0
+            p Já atendemos dezenas de startups com mais diversos tipos de projetos. Faça como eles e escolha a gente para lançar seu novo negócio!
     .projects__grid
       .container-fluid
         .row.no-pad
@@ -73,10 +104,8 @@ main
               .project-box__image[style="background-image: url(#{image_path 'thinktodo.jpg'})"]
               h1.project-box__name
                 | thinkto.do
-          .col-md-12.text-center
+    .projects-bottom
 
-      .slide-show
-    .slide-show__description
   .skew-container
     .skew-line
       .skew
@@ -150,4 +179,5 @@ main
             strong
               | (51) 3779-9710
             |  ou&nbsp;
-            strong contato@codeland.com.br
+            a href="mailto:contato@codeland.com.br?subject=[HOT] Lance minha Startup em duas semanas"
+              strong contato@codeland.com.br

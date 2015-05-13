@@ -1,6 +1,7 @@
 .skew-container {
   position: relative;
   height: 130px;
+  margin-top: -110px;
 }
 
 .skew-line {
@@ -22,6 +23,7 @@
           transform: rotate(-4deg);
   background: $brand-black;
   top: 95px;
+  &.yellow { background: $brand-yellow; }
 }
 
 .skew-right {
@@ -35,5 +37,5 @@
           transform: rotate(5deg);
   background: $brand-black;
   top: 88px;
+  &.yellow { background: $brand-yellow; }
 }
-

@@ -1,17 +1,12 @@
-.projects__grid {
-  padding: 40px 0 10px 0;
-}
-
 .project-box {
   height: 220px;
   overflow: hidden;
   background-size: 100% 100%;
   cursor: pointer;
   background: rgba(0, 0, 0, .1);
-
   transition: all .3s;
   cursor: default;
-
+  z-index: 100;
   &:hover,
   &:active {
     background: rgba(0, 0, 0, .5);
